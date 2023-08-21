@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Color Random</title>
+</head>
+<body>
+
+    
+
+    <div class="cardColor">
+        <h1>Make Your Favorit Color</h1>
+        <div class="btnColor">
+            <p>Choose Your Colour With Click Button</p>
+            <button id="chooseColor" type="button">Click Me</button>
+            <h4 id="rgbText"></h4>
+        </div>
+        <div class="rangeColor">
+            <h4>OR</h4>
+            <div class="rangeInput">
+                <p>Red</p>
+                <input type="range" name="red" min="0" max="255" id="red">
+                <p>Green</p>
+                <input type="range" name="green" min="0" max="255" id="green">
+                <p>Blue</p>
+                <input type="range" name="blue" min="0" max="255" id="blue">
+
+            </div>
+        </div>
+        <button type="button" id="refresh">Refresh</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
